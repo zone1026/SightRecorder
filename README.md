@@ -1,2 +1,18 @@
 # SightRecorder
 小视频的录制和播放
+
+前段时间项目开发过程中遇到一个需求，想做一个类似微信那样的小视频，然后在录制视频的自定义图层上播放。于是就研究了 AVFoundation 的一些东西。实际开发过程中也遇到了一些问题，所以在这里做下记录。另外参考了SBVideoCaptureDemo的源码。
+
+使用AVCaptureSession、AVCaptureMovieFileOutput、AVCaptureDeviceInput、AVCaptureVideoPreviewLayer来录制视频，并通过AVAssetExportSeeion压缩视频并转换为 MP4 格式。
+
+使用AVPlayerLayer、AVPlayer、AVPlayerItem、NSURL自定义播放视频
+
+
+录制前先判断用户的设备对视频录制的支持情况
+
+1、视频录制之前要先判断摄像头是否可用。
+
+2、摄像头是否被授权。
+
+
+注意：改变设备属性前一定要首先调用lockForConfiguration方法加锁,调用完之后使用unlockForConfiguration方法解锁。对相机设置时，要判断当前设备是否支持改设置。比如：isExposureModeSupported、isFocusModeSupported等。
