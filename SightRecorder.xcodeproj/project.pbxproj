@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D061E231D23654B002FEA3E /* CALayer+SRUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D061E221D23654B002FEA3E /* CALayer+SRUtil.m */; };
+		0D061E261D2366F4002FEA3E /* ChatDataProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D061E251D2366F4002FEA3E /* ChatDataProxy.m */; };
+		0D061E291D236AFC002FEA3E /* UIView+SRTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D061E281D236AFC002FEA3E /* UIView+SRTools.m */; };
+		0D061E2C1D2397C2002FEA3E /* FullScreenPlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D061E2B1D2397C2002FEA3E /* FullScreenPlayVideoViewController.m */; };
+		0D7A87461D2282EB00D146B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A87451D2282EB00D146B3 /* main.m */; };
+		0D7A87491D2282EB00D146B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A87481D2282EB00D146B3 /* AppDelegate.m */; };
+		0D7A874C1D2282EB00D146B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A874B1D2282EB00D146B3 /* ViewController.m */; };
+		0D7A874F1D2282EB00D146B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7A874D1D2282EB00D146B3 /* Main.storyboard */; };
+		0D7A87511D2282EB00D146B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7A87501D2282EB00D146B3 /* Assets.xcassets */; };
+		0D7A87541D2282EB00D146B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7A87521D2282EB00D146B3 /* LaunchScreen.storyboard */; };
+		0D7A875E1D22854A00D146B3 /* SRUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A875D1D22854A00D146B3 /* SRUtil.m */; };
+		0D7A87611D22860E00D146B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7A87601D22860E00D146B3 /* AVFoundation.framework */; };
+		0D7A87631D22865500D146B3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7A87621D22865500D146B3 /* MobileCoreServices.framework */; };
+		0D7A87671D22873F00D146B3 /* ChatSightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A87661D22873F00D146B3 /* ChatSightViewController.m */; };
+		0D7A876B1D2287AC00D146B3 /* IMVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A876A1D2287AC00D146B3 /* IMVideoRecorder.m */; };
+		0D7A876E1D228A0D00D146B3 /* IMPlaySightOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A876D1D228A0D00D146B3 /* IMPlaySightOperation.m */; };
+		0D7A87711D228B0300D146B3 /* ChatHistorySightCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A87701D228B0300D146B3 /* ChatHistorySightCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D061E211D23654B002FEA3E /* CALayer+SRUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer+SRUtil.h"; path = "Util/CALayer+SRUtil.h"; sourceTree = "<group>"; };
+		0D061E221D23654B002FEA3E /* CALayer+SRUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer+SRUtil.m"; path = "Util/CALayer+SRUtil.m"; sourceTree = "<group>"; };
+		0D061E241D2366F4002FEA3E /* ChatDataProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatDataProxy.h; path = Sight/ChatDataProxy.h; sourceTree = "<group>"; };
+		0D061E251D2366F4002FEA3E /* ChatDataProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatDataProxy.m; path = Sight/ChatDataProxy.m; sourceTree = "<group>"; };
+		0D061E271D236AFC002FEA3E /* UIView+SRTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SRTools.h"; path = "Util/UIView+SRTools.h"; sourceTree = "<group>"; };
+		0D061E281D236AFC002FEA3E /* UIView+SRTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SRTools.m"; path = "Util/UIView+SRTools.m"; sourceTree = "<group>"; };
+		0D061E2A1D2397C2002FEA3E /* FullScreenPlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullScreenPlayVideoViewController.h; path = Sight/FullScreenPlayVideoViewController.h; sourceTree = "<group>"; };
+		0D061E2B1D2397C2002FEA3E /* FullScreenPlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullScreenPlayVideoViewController.m; path = Sight/FullScreenPlayVideoViewController.m; sourceTree = "<group>"; };
+		0D7A87411D2282EB00D146B3 /* SightRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SightRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7A87451D2282EB00D146B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D7A87471D2282EB00D146B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D7A87481D2282EB00D146B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D7A874A1D2282EB00D146B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D7A874B1D2282EB00D146B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D7A874E1D2282EB00D146B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D7A87501D2282EB00D146B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D7A87531D2282EB00D146B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D7A87551D2282EB00D146B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D7A875C1D22854A00D146B3 /* SRUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRUtil.h; path = Util/SRUtil.h; sourceTree = "<group>"; };
+		0D7A875D1D22854A00D146B3 /* SRUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRUtil.m; path = Util/SRUtil.m; sourceTree = "<group>"; };
+		0D7A87601D22860E00D146B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0D7A87621D22865500D146B3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0D7A87651D22873F00D146B3 /* ChatSightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatSightViewController.h; path = Sight/ChatSightViewController.h; sourceTree = "<group>"; };
+		0D7A87661D22873F00D146B3 /* ChatSightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatSightViewController.m; path = Sight/ChatSightViewController.m; sourceTree = "<group>"; };
+		0D7A87691D2287AC00D146B3 /* IMVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMVideoRecorder.h; path = Sight/IMVideoRecorder.h; sourceTree = "<group>"; };
+		0D7A876A1D2287AC00D146B3 /* IMVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMVideoRecorder.m; path = Sight/IMVideoRecorder.m; sourceTree = "<group>"; };
+		0D7A876C1D228A0D00D146B3 /* IMPlaySightOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMPlaySightOperation.h; path = Sight/IMPlaySightOperation.h; sourceTree = "<group>"; };
+		0D7A876D1D228A0D00D146B3 /* IMPlaySightOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMPlaySightOperation.m; path = Sight/IMPlaySightOperation.m; sourceTree = "<group>"; };
+		0D7A876F1D228B0300D146B3 /* ChatHistorySightCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatHistorySightCollectionViewCell.h; path = Sight/ChatHistorySightCollectionViewCell.h; sourceTree = "<group>"; };
+		0D7A87701D228B0300D146B3 /* ChatHistorySightCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatHistorySightCollectionViewCell.m; path = Sight/ChatHistorySightCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D7A873E1D2282EB00D146B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7A87631D22865500D146B3 /* MobileCoreServices.framework in Frameworks */,
+				0D7A87611D22860E00D146B3 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7A87381D2282EB00D146B3 = {
+			isa = PBXGroup;
+			children = (
+				0D7A87431D2282EB00D146B3 /* SightRecorder */,
+				0D7A87421D2282EB00D146B3 /* Products */,
+				0D7A875F1D2285F100D146B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D7A87421D2282EB00D146B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A87411D2282EB00D146B3 /* SightRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D7A87431D2282EB00D146B3 /* SightRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A87641D22872100D146B3 /* Sight */,
+				0D7A875B1D2284EF00D146B3 /* Util */,
+				0D7A87471D2282EB00D146B3 /* AppDelegate.h */,
+				0D7A87481D2282EB00D146B3 /* AppDelegate.m */,
+				0D7A874A1D2282EB00D146B3 /* ViewController.h */,
+				0D7A874B1D2282EB00D146B3 /* ViewController.m */,
+				0D7A874D1D2282EB00D146B3 /* Main.storyboard */,
+				0D7A87501D2282EB00D146B3 /* Assets.xcassets */,
+				0D7A87521D2282EB00D146B3 /* LaunchScreen.storyboard */,
+				0D7A87551D2282EB00D146B3 /* Info.plist */,
+				0D7A87441D2282EB00D146B3 /* Supporting Files */,
+			);
+			path = SightRecorder;
+			sourceTree = "<group>";
+		};
+		0D7A87441D2282EB00D146B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A87451D2282EB00D146B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D7A875B1D2284EF00D146B3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A875C1D22854A00D146B3 /* SRUtil.h */,
+				0D7A875D1D22854A00D146B3 /* SRUtil.m */,
+				0D061E211D23654B002FEA3E /* CALayer+SRUtil.h */,
+				0D061E221D23654B002FEA3E /* CALayer+SRUtil.m */,
+				0D061E271D236AFC002FEA3E /* UIView+SRTools.h */,
+				0D061E281D236AFC002FEA3E /* UIView+SRTools.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		0D7A875F1D2285F100D146B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A87621D22865500D146B3 /* MobileCoreServices.framework */,
+				0D7A87601D22860E00D146B3 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D7A87641D22872100D146B3 /* Sight */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A87681D22878000D146B3 /* recorder */,
+				0D7A87651D22873F00D146B3 /* ChatSightViewController.h */,
+				0D7A87661D22873F00D146B3 /* ChatSightViewController.m */,
+				0D7A876F1D228B0300D146B3 /* ChatHistorySightCollectionViewCell.h */,
+				0D7A87701D228B0300D146B3 /* ChatHistorySightCollectionViewCell.m */,
+				0D061E241D2366F4002FEA3E /* ChatDataProxy.h */,
+				0D061E251D2366F4002FEA3E /* ChatDataProxy.m */,
+				0D061E2A1D2397C2002FEA3E /* FullScreenPlayVideoViewController.h */,
+				0D061E2B1D2397C2002FEA3E /* FullScreenPlayVideoViewController.m */,
+			);
+			name = Sight;
+			sourceTree = "<group>";
+		};
+		0D7A87681D22878000D146B3 /* recorder */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A87691D2287AC00D146B3 /* IMVideoRecorder.h */,
+				0D7A876A1D2287AC00D146B3 /* IMVideoRecorder.m */,
+				0D7A876C1D228A0D00D146B3 /* IMPlaySightOperation.h */,
+				0D7A876D1D228A0D00D146B3 /* IMPlaySightOperation.m */,
+			);
+			name = recorder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D7A87401D2282EB00D146B3 /* SightRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7A87581D2282EB00D146B3 /* Build configuration list for PBXNativeTarget "SightRecorder" */;
+			buildPhases = (
+				0D7A873D1D2282EB00D146B3 /* Sources */,
+				0D7A873E1D2282EB00D146B3 /* Frameworks */,
+				0D7A873F1D2282EB00D146B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SightRecorder;
+			productName = SightRecorder;
+			productReference = 0D7A87411D2282EB00D146B3 /* SightRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D7A87391D2282EB00D146B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "黄亚州";
+				TargetAttributes = {
+					0D7A87401D2282EB00D146B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D7A873C1D2282EB00D146B3 /* Build configuration list for PBXProject "SightRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D7A87381D2282EB00D146B3;
+			productRefGroup = 0D7A87421D2282EB00D146B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D7A87401D2282EB00D146B3 /* SightRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D7A873F1D2282EB00D146B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7A87541D2282EB00D146B3 /* LaunchScreen.storyboard in Resources */,
+				0D7A87511D2282EB00D146B3 /* Assets.xcassets in Resources */,
+				0D7A874F1D2282EB00D146B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7A873D1D2282EB00D146B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7A874C1D2282EB00D146B3 /* ViewController.m in Sources */,
+				0D061E231D23654B002FEA3E /* CALayer+SRUtil.m in Sources */,
+				0D7A87671D22873F00D146B3 /* ChatSightViewController.m in Sources */,
+				0D7A87491D2282EB00D146B3 /* AppDelegate.m in Sources */,
+				0D7A876B1D2287AC00D146B3 /* IMVideoRecorder.m in Sources */,
+				0D7A875E1D22854A00D146B3 /* SRUtil.m in Sources */,
+				0D7A87461D2282EB00D146B3 /* main.m in Sources */,
+				0D061E291D236AFC002FEA3E /* UIView+SRTools.m in Sources */,
+				0D7A876E1D228A0D00D146B3 /* IMPlaySightOperation.m in Sources */,
+				0D061E2C1D2397C2002FEA3E /* FullScreenPlayVideoViewController.m in Sources */,
+				0D061E261D2366F4002FEA3E /* ChatDataProxy.m in Sources */,
+				0D7A87711D228B0300D146B3 /* ChatHistorySightCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D7A874D1D2282EB00D146B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7A874E1D2282EB00D146B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D7A87521D2282EB00D146B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7A87531D2282EB00D146B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D7A87561D2282EB00D146B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D7A87571D2282EB00D146B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D7A87591D2282EB00D146B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SightRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SightRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D7A875A1D2282EB00D146B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SightRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SightRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D7A873C1D2282EB00D146B3 /* Build configuration list for PBXProject "SightRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7A87561D2282EB00D146B3 /* Debug */,
+				0D7A87571D2282EB00D146B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7A87581D2282EB00D146B3 /* Build configuration list for PBXNativeTarget "SightRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7A87591D2282EB00D146B3 /* Debug */,
+				0D7A875A1D2282EB00D146B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D7A87391D2282EB00D146B3 /* Project object */;
+}
